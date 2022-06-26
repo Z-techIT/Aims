@@ -1,20 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2022-06-26T19:53:14.755Z" agent="5.0 (X11)" etag="ZLO-n6zmQ5kLh9h5Z8Zp" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-26T20:05:48.550Z" agent="5.0 (X11)" etag="_ugcIpwuxEsJoyHB1cYZ" version="19.0.3" type="github">
   <diagram id="v760DRj5wuVyRDYj6Pmf" name="Page-1">
-    <mxGraphModel dx="1422" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="462" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="6yYNlxBjcoMtwoBK_832-6" value="&lt;&lt; Java Class &gt;&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="150" width="160" height="86" as="geometry" />
+        <mxCell id="6yYNlxBjcoMtwoBK_832-6" value="&lt;&lt; Java Class &gt;&gt;&#xa;hust.soict.hedspi.aims.order::Order" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="110" width="230" height="254" as="geometry" />
         </mxCell>
-        <mxCell id="6yYNlxBjcoMtwoBK_832-7" value="- itemsOrdered" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6yYNlxBjcoMtwoBK_832-6">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        <mxCell id="6yYNlxBjcoMtwoBK_832-7" value="- itemsOrdered: ArrayList&#xa;- &#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6yYNlxBjcoMtwoBK_832-6">
+          <mxGeometry y="40" width="230" height="64" as="geometry" />
         </mxCell>
         <mxCell id="6yYNlxBjcoMtwoBK_832-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="6yYNlxBjcoMtwoBK_832-6">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="104" width="230" height="8" as="geometry" />
         </mxCell>
         <mxCell id="6yYNlxBjcoMtwoBK_832-9" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6yYNlxBjcoMtwoBK_832-6">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+          <mxGeometry y="112" width="230" height="142" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
