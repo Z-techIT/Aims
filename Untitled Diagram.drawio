@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-06-27T07:29:12.527Z" agent="5.0 (X11)" etag="cn_LAp2V1LEj_4AX-kC_" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-27T07:50:15.648Z" agent="5.0 (X11)" etag="VbNndRMzM9B-U4D5fUkt" version="20.0.3" type="github">
   <diagram id="v760DRj5wuVyRDYj6Pmf" name="Page-1">
-    <mxGraphModel dx="462" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1662" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="6yYNlxBjcoMtwoBK_832-6" value="&lt;&lt; Java Class &gt;&gt;&#xa;hust.soict.hedspi.aims.order::Order" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="20" y="35" width="230" height="280" as="geometry" />
+          <mxGeometry x="20" y="10" width="230" height="280" as="geometry" />
         </mxCell>
         <mxCell id="6yYNlxBjcoMtwoBK_832-7" value="- itemsOrdered: ArrayList&#xa;- dateOrdered: MyDate&#xa;- nbOrderes: int&#xa;- id: int&#xa;- MAX_NUMBER_ORDER: int&#xa;- MAX_LIMITED_ORDERS: int &#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="6yYNlxBjcoMtwoBK_832-6" vertex="1">
           <mxGeometry y="40" width="230" height="100" as="geometry" />
@@ -17,7 +17,7 @@
           <mxGeometry y="148" width="230" height="132" as="geometry" />
         </mxCell>
         <mxCell id="XqhugPaKbIoTn08K-KNa-5" value="&lt;&lt; Java Class &gt;&gt;&#xa;hust.soict.hedspi.aims.media::Book" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="570" y="50" width="230" height="220" as="geometry" />
+          <mxGeometry x="20" y="330" width="230" height="220" as="geometry" />
         </mxCell>
         <mxCell id="XqhugPaKbIoTn08K-KNa-6" value="- authors: ArrayList" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="XqhugPaKbIoTn08K-KNa-5">
           <mxGeometry y="40" width="230" height="30" as="geometry" />
@@ -29,7 +29,7 @@
           <mxGeometry y="78" width="230" height="142" as="geometry" />
         </mxCell>
         <mxCell id="XqhugPaKbIoTn08K-KNa-9" value="&lt;&lt; Java Abstract Class &gt;&gt;&#xa;hust.soict.hedspi.aims.media::Media" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="305" y="50" width="240" height="260" as="geometry" />
+          <mxGeometry x="340" y="30" width="240" height="260" as="geometry" />
         </mxCell>
         <mxCell id="XqhugPaKbIoTn08K-KNa-10" value="# id: int&#xa;# title: String&#xa;# category: String# cost: float&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="XqhugPaKbIoTn08K-KNa-9">
           <mxGeometry y="40" width="240" height="60" as="geometry" />
@@ -41,7 +41,7 @@
           <mxGeometry y="108" width="240" height="152" as="geometry" />
         </mxCell>
         <mxCell id="XqhugPaKbIoTn08K-KNa-13" value="&lt;&lt; Java Class &gt;&gt;&#xa;hust.soict.hedspi.aims.media::Disc" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="430" width="230" height="290" as="geometry" />
+          <mxGeometry x="650" y="30" width="230" height="290" as="geometry" />
         </mxCell>
         <mxCell id="XqhugPaKbIoTn08K-KNa-14" value="# length: int&#xa;# director: String&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="XqhugPaKbIoTn08K-KNa-13">
           <mxGeometry y="40" width="230" height="40" as="geometry" />
@@ -53,7 +53,7 @@
           <mxGeometry y="88" width="230" height="202" as="geometry" />
         </mxCell>
         <mxCell id="XqhugPaKbIoTn08K-KNa-17" value="&lt;&lt; Java Class &gt;&gt;&#xa;hust.soict.hedspi.aims.media::CompactDisc" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="370" y="450" width="270" height="260" as="geometry" />
+          <mxGeometry x="980" y="30" width="270" height="260" as="geometry" />
         </mxCell>
         <mxCell id="XqhugPaKbIoTn08K-KNa-18" value="- artist: String&#xa;- tracks: ArrayList&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="XqhugPaKbIoTn08K-KNa-17">
           <mxGeometry y="40" width="270" height="50" as="geometry" />
@@ -63,6 +63,91 @@
         </mxCell>
         <mxCell id="XqhugPaKbIoTn08K-KNa-20" value="+ CompactDisc()&#xa;+ getArtist(): String&#xa;+ CompactDisc(String)&#xa;+ CompactDisc(String, String, float, String)&#xa;+ CompactDisc(String, ArrayList)&#xa;+ CompactDisc(String, ArrayList, int)&#xa;+ addTrack(Track): void&#xa;+ removeTrack(Track): void &#xa;+ getLength(): int&#xa;+ play(): void &#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="XqhugPaKbIoTn08K-KNa-17">
           <mxGeometry y="98" width="270" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="XqhugPaKbIoTn08K-KNa-21" value="&lt;&lt; Java Class &gt;&gt;&#xa;hust.soict.hedspi.aims.media::DigitalVideoDisc" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="370" width="290" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="XqhugPaKbIoTn08K-KNa-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="XqhugPaKbIoTn08K-KNa-21">
+          <mxGeometry y="40" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="XqhugPaKbIoTn08K-KNa-24" value="+ DIgitalVideoDisc()&#xa;+ DIgitalVideoDisc(String)&#xa;+ DIgitalVideoDisc(String, String)&#xa;+ DIgitalVideoDisc(String, String, String)&#xa;+ DIgitalVideoDisc(String, String, float, String, int)&#xa;+ search(String): boolean&#xa;+ printInfo(): void &#xa;&#xa;+ play(): void &#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="XqhugPaKbIoTn08K-KNa-21">
+          <mxGeometry y="48" width="290" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="XqhugPaKbIoTn08K-KNa-25" value="&lt;&lt; interface &gt;&gt;&#xa;hust.soict.hedspi.aims.media::Playable" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="480" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XqhugPaKbIoTn08K-KNa-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="XqhugPaKbIoTn08K-KNa-25">
+          <mxGeometry y="40" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="XqhugPaKbIoTn08K-KNa-58" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.004;entryY=0.031;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="XqhugPaKbIoTn08K-KNa-25" target="XqhugPaKbIoTn08K-KNa-28">
+          <mxGeometry x="-0.0776" y="50" width="160" relative="1" as="geometry">
+            <mxPoint x="-130" y="50" as="sourcePoint" />
+            <mxPoint x="30" y="50" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqhugPaKbIoTn08K-KNa-28" value="+ play()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="XqhugPaKbIoTn08K-KNa-25">
+          <mxGeometry y="48" width="230" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="XqhugPaKbIoTn08K-KNa-29" value="&lt;&lt; Java Class &gt;&gt;&#xa;hust.soict.hedspi.aims.media::Track" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="370" width="230" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="XqhugPaKbIoTn08K-KNa-30" value="- title: String&#xa;- length: int&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="XqhugPaKbIoTn08K-KNa-29">
+          <mxGeometry y="40" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XqhugPaKbIoTn08K-KNa-31" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="XqhugPaKbIoTn08K-KNa-29">
+          <mxGeometry y="80" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="XqhugPaKbIoTn08K-KNa-32" value="+ Track()&#xa;+ getTitle(): String&#xa;+ getLength(): int&#xa;+ Track(String)&#xa;+ Track(String, int)&#xa;+ play(): void &#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="XqhugPaKbIoTn08K-KNa-29">
+          <mxGeometry y="88" width="230" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="XqhugPaKbIoTn08K-KNa-51" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.158;entryY=0.993;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="XqhugPaKbIoTn08K-KNa-12">
+          <mxGeometry x="-0.125" y="40" width="160" relative="1" as="geometry">
+            <mxPoint x="250" y="430" as="sourcePoint" />
+            <mxPoint x="410" y="430" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqhugPaKbIoTn08K-KNa-52" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.125" y="40" width="160" relative="1" as="geometry">
+            <mxPoint x="650" y="149.5" as="sourcePoint" />
+            <mxPoint x="580" y="149.5" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqhugPaKbIoTn08K-KNa-53" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.139;entryY=1.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="XqhugPaKbIoTn08K-KNa-16">
+          <mxGeometry x="-0.125" y="40" width="160" relative="1" as="geometry">
+            <mxPoint x="620" y="369.99999999999994" as="sourcePoint" />
+            <mxPoint x="680" y="308.94" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqhugPaKbIoTn08K-KNa-56" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="340" y="110" as="sourcePoint" />
+            <mxPoint x="250" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqhugPaKbIoTn08K-KNa-57" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=-0.007;exitY=0.074;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="XqhugPaKbIoTn08K-KNa-20">
+          <mxGeometry x="-0.125" y="40" width="160" relative="1" as="geometry">
+            <mxPoint x="950" y="140" as="sourcePoint" />
+            <mxPoint x="880" y="140" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqhugPaKbIoTn08K-KNa-59" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XqhugPaKbIoTn08K-KNa-17" target="XqhugPaKbIoTn08K-KNa-25">
+          <mxGeometry x="-0.0776" y="50" width="160" relative="1" as="geometry">
+            <mxPoint x="979.08" y="370" as="sourcePoint" />
+            <mxPoint x="1110" y="368.99199999999996" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqhugPaKbIoTn08K-KNa-60" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XqhugPaKbIoTn08K-KNa-32">
+          <mxGeometry x="-0.0776" y="50" width="160" relative="1" as="geometry">
+            <mxPoint x="1190" y="511.01" as="sourcePoint" />
+            <mxPoint x="1110" y="510" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
